@@ -1,0 +1,291 @@
+#form_top-title {
+  margin-left: 20px;
+  font-size: 18px;
+}
+
+#form_bottom-datagrid {
+  height: 100px;
+}
+
+.backgroundAbout {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 10;
+  background-color: rgba(255, 255, 255, 0.7);
+}
+
+.backgroundAbout_form {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  margin: auto;
+  width: 750px;
+  height: 940px;
+  box-shadow: 0px 5px 15px 5px;
+  background-color: white;
+}
+
+.backgroundAbout_form-top {
+  display: flex;
+  width: 100%;
+  height: 9%;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.backgroundAbout_form-body {
+  width: 100%;
+  height: 100%;
+  overflow: scroll;
+}
+
+.backgroundAbout_form-body::-webkit-scrollbar {
+  display: none;
+}
+
+.backgroundAbout_form-bottom {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 0px 10px;
+  height: 10%;
+}
+
+.formAbout_body-backgroundAll {
+  height: 100%;
+}
+
+.bodyAbout_item-top {
+  display: flex;
+  width: 100%;
+  height: 50%;
+  align-items: center;
+}
+
+.bodyAbout_item-bottom {
+  width: 100%;
+  height: 50%;
+}
+
+.formAbout_calendar {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: -18px;
+}
+
+.formAbout_calendar-item {
+  width: 32%;
+  height: 100%;
+}
+
+.calendar_item-title {
+  display: flex;
+  width: 100%;
+  height: 45%;
+  align-items: flex-end;
+}
+
+.calendar_item-input {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  align-items: flex-start;
+}
+
+.formAbout_item {
+  display: flex;
+  height: 40px;
+  align-items: center;
+  margin: 10px 0px;
+}
+
+.aboutReview1 {
+  display: flex;
+  height: 70px;
+  flex-wrap: wrap;
+}
+
+.aboutReview1_left {
+  display: flex;
+  width: 35%;
+  height: 100%;
+  align-items: center;
+}
+
+.aboutReview1_right {
+  width: 30%;
+  height: 100%;
+}
+
+.aboutReview1_right-top {
+  display: flex;
+  width: 100%;
+  height: 50%;
+  align-items: center;
+}
+
+.aboutReview1_right-bottom {
+  width: 100%;
+  height: 50%;
+}
+
+.aboutReview2 {
+  display: flex;
+  height: 70px;
+}
+
+.aboutReview2_left {
+  width: 35%;
+  height: 100%;
+}
+
+.aboutReview2_right {
+  display: flex;
+  width: 70%;
+  height: 100%;
+  align-items: center;
+}
+
+.aboutXetDuyet {
+  display: flex;
+  height: 65px;
+  flex-wrap: wrap;
+}
+
+.aboutXetDuyet_left {
+  display: flex;
+  width: 50%;
+  height: 100%;
+  align-items: center;
+}
+
+.aboutXetDuyet_right {
+  width: 50%;
+  height: 100%;
+}
+
+.aboutXetDuyet_right-top {
+  display: flex;
+  width: 100%;
+  height: 50%;
+  align-items: center;
+}
+
+.aboutXetDuyet_right-bottom {
+  width: 100%;
+  height: 50%;
+}
+
+.loading_notification {
+  z-index: 10000;
+  position: absolute;
+  top: 5%;
+  right: 1%;
+  transition: "height 1s ease";
+}
+
+.css-1q2vuhm.DGN-Typography-p1 {
+  margin-right: 10px;
+}
+
+@media only screen and (max-width: 720px) {
+  /* bên trong chứa các thuộc tình CSS cần chỉnh sửa */
+  .formAbout_calendar-item {
+    width: 50%;
+  }
+
+  .calendar_item-input {
+    width: 200%;
+  }
+
+  .css-1iadtza {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  /* bên trong chứa các thuộc tình CSS cần chỉnh sửa */
+  .aboutReview2 {
+    display: block;
+    height: 0%;
+  }
+
+  .aboutReview1_left {
+    width: 50%;
+  }
+
+  .aboutReview2_right {
+    width: 100%;
+  }
+
+  .calendar_item-input {
+    width: 200%;
+  }
+
+  .css-1iadtza {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 560px) {
+  /* bên trong chứa các thuộc tình CSS cần chỉnh sửa */
+  .formAbout_calendar-item {
+    width: 100%;
+  }
+
+  .css-1nix3a2 {
+    width: 100%;
+  }
+
+  .css-1iadtza {
+    width: 100%;
+  }
+
+  .calendar_item-input {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 510px) {
+  /* bên trong chứa các thuộc tình CSS cần chỉnh sửa */
+  .formAbout_calendar-item {
+    width: 100%;
+  }
+
+  .css-1nix3a2 {
+    width: 100%;
+  }
+
+  .aboutReview1 {
+    height: 0%;
+    display: block;
+  }
+
+  .aboutReview1_right {
+    margin-top: 25px;
+    width: 100%;
+  }
+
+  .aboutReview1_left {
+    width: 100%;
+  }
+
+  .aboutXetDuyet {
+    height: 0%;
+  }
+
+  .aboutXetDuyet_left {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .aboutXetDuyet_right {
+    width: 100%;
+  }
+}

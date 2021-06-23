@@ -1,0 +1,126 @@
+#aboutReview2_left-dropdown {
+  width: 170px;
+}
+
+.background {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+
+.background_form {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 1350px;
+  height: 385px;
+  margin: auto;
+  background-color: white;
+  box-shadow: 0px 5px 15px 5px;
+  overflow: hidden;
+}
+
+.background_form-top {
+  height: 15%;
+  border-bottom: 3px solid #dbdbdb;
+}
+
+.form_top-left {
+  display: flex;
+  width: 50%;
+  height: 100%;
+  align-items: center;
+  padding-left: 50px;
+}
+
+.dataGrid {
+  height: 210px;
+  width: 95%;
+}
+
+.dataGrid::-webkit-scrollbar {
+  display: none;
+}
+
+.dx-pager {
+  display: none;
+}
+
+.dx-header-row {
+  font-weight: bold;
+  color: black;
+  text-transform: uppercase;
+  background-color: #f6f6f9;
+}
+
+.dx-datagrid-content
+  .dx-datagrid-table
+  .dx-row
+  .dx-command-edit.dx-command-edit-with-icons {
+  display: flex;
+  width: 90%;
+  align-items: center;
+  justify-content: center;
+}
+
+.dx-datagrid-content .dx-datagrid-table .dx-row > td,
+.dx-datagrid-content .dx-datagrid-table .dx-row > tr > td {
+  border: none;
+}
+
+.backgroundCircularProgress {
+  position: fixed;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(255,255,255,.7);
+  z-index: 10000;
+}
+
+.backgroundListTable{
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom : 0;
+  margin: auto;
+  width:  90%;
+  height: 375px;
+  min-width: 430px;
+  box-shadow: 0px 5px 15px 5px;
+}
+
+.backgroundListTable_top{
+  display: flex;
+  width: 100%;
+  height: 18%;
+  align-items: center;
+  padding-left: 30px;
+}
+
+.backgroundListTable_bottom{
+  width: 100%;
+  height: 82%;
+  border-top: 3px solid #dbdbdb;
+  background-color: white;
+}
+
+.dataGrid_form{
+  display: flex;
+  width: 100%;
+  height: 80%;
+  justify-content: center;
+  align-items: center;
+}
+
+.paging{
+  height: 20%;
+  margin-top: 5px;
+  margin-left: 5%;
+}
